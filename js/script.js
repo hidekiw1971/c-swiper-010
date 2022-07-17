@@ -1,53 +1,26 @@
 jQuery(function ($) {
   // この中であればWordpressでも「$」が使用可能になる
-  var slider1 = new Swiper(".slider1", {
-    effect: "slide",
-
+  const myswiper1 = new Swiper(".myswiper1", {
+    // ページネーションが必要なら追加
     pagination: {
       el: ".swiper-pagination",
     },
-
+    // ナビボタンが必要なら追加
     navigation: {
       nextEl: ".swiper-button-next1",
       prevEl: ".swiper-button-prev1",
     },
-
-    scrollbar: {
-      el: ".swiper-scrollbar",
-    },
   });
+});
 
-  var slider2 = new Swiper(".slider2", {
-    effect: "fade",
-
-    pagination: {
-      el: ".swiper-pagination",
-    },
-
-    navigation: {
-      nextEl: ".swiper-button-next2",
-      prevEl: ".swiper-button-prev2",
-    },
-
-    scrollbar: {
-      el: ".swiper-scrollbar",
-    },
-  });
-
-  var slider3 = new Swiper(".slider3", {
-    effect: "cube",
-
-    pagination: {
-      el: ".swiper-pagination",
-    },
-
-    navigation: {
-      nextEl: ".swiper-button-next3",
-      prevEl: ".swiper-button-prev3",
-    },
-
-    scrollbar: {
-      el: ".swiper-scrollbar",
-    },
-  });
+const myswiper2 = new Swiper(".myswiper2", {
+  // ページネーションが必要なら追加
+  pagination: {
+    el: ".swiper-pagination",
+  },
+  // ナビボタンが必要なら追加
+  navigation: {
+    nextEl: ".swiper-button-next2",
+    prevEl: ".swiper-button-prev2",
+  },
 });
