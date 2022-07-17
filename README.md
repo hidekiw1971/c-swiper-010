@@ -2,8 +2,7 @@
 
 ## portfolio url:
 
-- https://c-0000.wtb.cfbx.jp/
-- https://css-md-0000.wtb.cfbx.jp/
+- https://c-0087.wtb.cfbx.jp/
 
 ## 更新履歴
 
@@ -11,3 +10,4 @@
 - 2022/7/17 11:03 https://kiomiru.co.jp/blog/coding/swiper-js/ で検証
 - 2022/7/17 22:31 これで検証終了（swiper-pagination を同一ページで外出しは無理だった。スキル不足.
   ）
+- 2022/7/17 22:36 コメント修正
