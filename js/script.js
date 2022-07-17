@@ -11,16 +11,16 @@ jQuery(function ($) {
       prevEl: ".swiper-button-prev1",
     },
   });
-});
 
-const myswiper2 = new Swiper(".myswiper2", {
-  // ページネーションが必要なら追加
-  pagination: {
-    el: ".swiper-pagination",
-  },
-  // ナビボタンが必要なら追加
-  navigation: {
-    nextEl: ".swiper-button-next2",
-    prevEl: ".swiper-button-prev2",
-  },
+  const myswiper2 = new Swiper(".myswiper2", {
+    // ページネーションが必要なら追加
+    pagination: {
+      el: ".swiper-pagination",
+    },
+    // ナビボタンが必要なら追加
+    navigation: {
+      nextEl: ".swiper-button-next2",
+      prevEl: ".swiper-button-prev2",
+    },
+  });
 });
