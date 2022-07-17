@@ -8,4 +8,4 @@
 ## 更新履歴
 
 - 2022/7/17 10:24 初版 作成完了（検証中）
--
+- 2022/7/17 11:03 https://kiomiru.co.jp/blog/coding/swiper-js/ で検証
